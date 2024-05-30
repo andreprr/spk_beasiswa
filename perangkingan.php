@@ -91,9 +91,9 @@ if(isset($_POST['proses'])){
             <th>No.</th>
             <th>NIM</th>
             <th>Nama Mahasiswa</th>
-            <th>n_pendapatan</th>
-            <th>n_IPK</th>
-            <th>n_Saudara</th>
+            <th>Pendapatan</th>
+            <th>IPK</th>
+            <th>Saudara</th>
             <th>Preferensi</th>
         </tr>
         </thead>

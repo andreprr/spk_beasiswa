@@ -8,8 +8,8 @@ require "config.php";
 
 if(isset($_POST["submit"])){
 
-    $username=$_POST["username"]; //razerfear, andre
-    $pass=md5($_POST["pass"]); //admin123,andre123
+    $username=$_POST["username"]; //razerfear, admin123
+    $pass=md5($_POST["pass"]); //andre,andre123
 
     $sql = "SELECT*FROM users WHERE username='$username' and pass='$pass'";
     $result = $conn->query($sql);

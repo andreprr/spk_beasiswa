@@ -31,7 +31,6 @@ require "config.php";
         <li class="nav-item active"><a class="nav-link" href="index.php"><i class="fas fa-home"></i> Home </a></li>
         <?php 
             if($_SESSION["level"]=="SuperAdmin"){
-
         ?>
             <li class="nav-item active"><a class="nav-link" href="?page=users"><i class="fas fa-user"></i> Users </a></li>
             <li class="nav-item active"><a class="nav-link" href="?page=perangkingan&thn="><i class="fas fa-address-book"></i> Perangkingan </a></li>
@@ -41,8 +40,6 @@ require "config.php";
         ?>
             <li class="nav-item active"><a class="nav-link" href="?page=mahasiswa"><i class="fas fa-user-circle"></i> Mahasiswa </a></li>
             <li class="nav-item active"><a class="nav-link" href="?page=pendaftaran"><i class="fas fa-address-book"></i> Pendaftaran </a></li>
-            <li class="nav-item active"><a class="nav-link" href="?page=perangkingan&thn="><i class="fas fa-address-book"></i> Perangkingan </a></li>
-            <li class="nav-item active"><a class="nav-link" href="?page=report"><i class="fas fa-file"></i> Report </a></li>
         <?php 
             }
         ?>  
